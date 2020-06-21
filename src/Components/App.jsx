@@ -21,7 +21,6 @@ function App() {
     setNotes(prevNotes => {
       return (
         prevNotes.filter((note, index) => {
-          console.log(note, index);
           return index !== noteID;
         })
       );
